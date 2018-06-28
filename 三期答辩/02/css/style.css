@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.fl{
+    float: left;
+}
+/*通用样式*/
+
+.home header .navbar{
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+    min-height: 70px;
+    padding: 20px 0;
+}
+.home-page header .navbar-default {
+    background: rgba(0, 50, 142, 0.01);
+    position: absolute;
+    width: 100%;
+}
+.navbar-default {
+    background-color: rgba(0, 50, 142, 0.01);
+    border: none;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #fff;
+    background-color: transparent;
+}
+.home header .banner{
+    position: relative;
+}
+.home header .banner img{
+    position: relative;
+    width: 100%;
+}
+.home header .banner .m{
+    position: absolute;
+    bottom: 5px;
+    
+    background-color: transparent;
+    color: #fff;
+    margin: 0;
+    padding: 25px 25px 25px 30px;
+    text-align: left;
+    margin: 10px auto;
+    display: inline-block;
+}
+.home header .banner .m h3{
+    color: #7BD260;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    font-size: 45px;
+    font-weight: normal;
+    font-weight: bold;
+    display: block;
+}
+.home header .banner .m p{
+    margin: 12px 0 56px;
+    font-size: 20px;
+    line-height: 22px;
+    font-weight: 300;
+    color: #fff;
+    display: inline-block;
+}
+.home header .banner .col-md-12{
+    width: auto;
+}
+
+.home header .navbar .navbar-nav li.active1 a{
+    background: #7BD260;
+    border: 1px solid #7BD260;
+    color: #0F0F29;
+    font-size: 18px;
+}
+#bs-example-navbar-collapse-1{
+    float: right;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+}
+
+
+.home .main{
+    padding: 50px 0 0 0;
+}
+
+#content {
+    position: relative;
+    /* background: #fff; */
+    padding: 50px 0 0px 0;
+    margin-bottom: 50px;
+}
+.home #content .box{
+    width: 100%;
+    border: 1px solid #D4D4D4;
+    display: inline-block;
+}
+.home .icon i{
+    padding: 9px 0 6px 0px;
+    width: 80px;
+    height: 50px;
+    color: #62BD45;
+    font-size: 42px;
+    font-size: 32px;
+    text-align: center;
+    -ms-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 0;
+    display: inline-table;
+}
+
+.home #content .box-area {
+    padding: 0 0;
+    /* padding-top: 0; */
+    height: 218px;
+    float: left;
+    text-align: left;
+    padding: 0px 20px;
+}
+
+.home .features .icon{
+    width: 20%;
+    height: 100%;
+    float: left;
+    padding: 15px 0 6px 0px;
+}
+.home .features .features-content{
+    width: 80%;
+    height: 100%;
+    float: left;
+}
+.home .features img ,.home .aboutUs img {
+    width: 100%;
+    margin: 10px 0 0 0;
+}
+
+.home .aboutUs{
+    padding: 50px 0 0;
+    background: #62BD45;
+    color: #fff;
+}
+
+.home .aboutUs h2{
+    color: #333;
+    margin-bottom: 20px;
+    
+}
+.home .aboutUs p{
+    margin: 0 0 10px;
+}
+.aboutUs img{
+    padding-bottom: 30px;
+}
+footer{
+    
+    color: #949494;
+}
+footer .center{
+    padding: 50px 0 0 0;
+    background: #1b1b1b;
+}
+.home footer .widget h3{
+    color: #62BD45;
+}
+.home footer .widget address p{
+    padding-top: 15px;
+}
+
+footer .nav{
+    text-align: right;
+    padding-right: 70px;
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+footer .span{
+    padding-top: 25px;
+}
+footer .sub-footer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #191919;
+    color: #fff;
+}
+
+
+#top{
+    display: none;
+    width: 32px;
+    height: 32px;
+    background: #1891EC;
+    position: fixed;
+    bottom: 0px;
+    right: 20px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 30px;
+    color: #000;
+}
+
+
+
+@media (max-width: 767px){
+.navbar-default .navbar-collapse {
+    border-color: none;
+    background: #202021;
+}
+    #bs-example-navbar-collapse-1{
+    float: none;
+}
+    .home header .banner .m{
+        display: none;
+    }
+    .home #content .box{
+        margin-bottom: 15px;
+    }
+    .home .aboutUs img{
+        margin-bottom: 20px;
+    
+}
+    .home footer .widget{
+    height: 216px;
+}
+}

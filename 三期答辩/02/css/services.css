@@ -1,0 +1,40 @@
+.services #se2 img{
+    width: 100%;
+    
+}
+.services #se2{
+    padding-bottom: 40px;
+    border-bottom: 1px solid #ccc;
+}
+.services #cl3 .col-md-4 span{
+    padding: 10px 0px;
+    width: 20%;
+    margin-top: 30px;
+    
+}
+.services #cl3 .col-md-4 span i{
+    width: 30px;
+    height: 30px;
+    padding: 15px 10px;
+    text-align: center;
+    font-size: 30px;
+    color: #62BD45;
+    background: #F7F7F7;
+}
+.services #cl3 .col-md-4 .box-area{
+    margin-left: 10px;
+    width: 70%;
+    height: 218px;
+}
+#top{
+    width: 32px;
+    height: 32px;
+    color: #000;
+    background: #1891EC;
+    position: fixed;
+    bottom: 0px;
+    right: 20px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 30px;
+}
